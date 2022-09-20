@@ -1,0 +1,12 @@
+.header{
+    background-color: greenyellow;
+    
+}
+.nav {
+    display: inline-block;
+    margin-left:20px;
+}
+.right{
+    display: inline-block;
+    margin: 20px;
+}
