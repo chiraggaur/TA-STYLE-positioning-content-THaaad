@@ -49,35 +49,57 @@ table {
 
 /* custom css */
 
-
-
-.container{
-    border: 2px solid black;
-    width: 1200px;
-    margin: 0 auto;
+.heading{
     text-align: center;
-     
-}
-.head{
-    font-size: 50px;  
-     padding: 30px;
-}
-.container2{
-    /* border: 2px solid black; */
-    width: 1200px;
-    height: 800px;
-    margin: 0 auto;
-    background-color:white;
+    font-size: 40px;
     padding: 20px;
-
+   
 }
-.nav1{
-    height: 700px;
-    width:150px;
-    /* border: 2px solid black; */
-    font-size: 20px;
-    /* display: inline-block; */
+
+
+.clearfix::before,.clearfix::after{
+    content: "";
+    display: table;
+}
+.clearfix::after{
+    clear: both;
+}
+.left{
     float: left;
+    width: 25%;
+    font-size: 30px;
+    margin: 20px;
+}
+.article{
+    float: left;
+    width: 40%;
+}
+.right{
+    float: left;
+    width: 25%;
+    padding-top: 40px;
+    
+}
+.intro{
+    font-size: 20px;
+    margin: 10px;
+}
+.article{
+    margin: 20px;
+    
+}
+.article img{
+       padding-bottom: 20px;
+}
+.quote{
+    font-size: 20px;
+}
+.para{
+    font-size: 20px;
     padding: 20px;
 }
-
+.para1{
+   padding: 40px;
+    font-size: 20px;
+    
+}
